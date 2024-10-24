@@ -2,7 +2,12 @@
     --inv: none;
 }
 
+
+
 *{
+    cursor: url(frame1.png), auto;
+    -webkit-animation: cursor 400ms infinite;
+    animation: cursor 400ms infinite;
     font-family: "Comic Sans MS", math;
 }
 
@@ -104,4 +109,14 @@ div{
 @keyframes snow {
     0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
     100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}
+}
+
+@-webkit-keyframes cursor {
+    0% {cursor: url(frame1.png), auto;}
+    100% {cursor: url(frame2.png), auto;}
+}
+
+@keyframes cursor {
+    0% {cursor: url(frame1.png), auto;}
+    100% {cursor: url(frame2.png), auto;}
 }
