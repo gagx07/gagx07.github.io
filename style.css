@@ -1,0 +1,107 @@
+:root{
+    --inv: none;
+}
+
+*{
+    font-family: "Comic Sans MS", math;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 16px;
+    overflow: hidden;
+}
+
+div{
+    opacity: 0.9;
+}
+
+.gap{
+    padding: 1%;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 25px;
+    height: 50px;
+    background-color: lightgray;
+    text-align:center
+}
+
+#title{
+    font-size: xxx-large;
+}
+
+#mainText{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#list{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#search{
+    text-align: center;
+    border-radius: 25%;
+    width: 75%;
+}
+
+#blog{
+    margin-left: auto;
+    margin-right: auto;
+    background: #eaeaea;
+    width: 60%;
+    height: 1000px;
+}
+
+#blog h1{
+    text-align: center;
+}
+
+#button1{
+    padding-right: 20px;
+}
+
+#list{
+    list-style-type: var(--inv);
+}
+
+#snow{
+    background-image: url('/corndog-tile-1.png'), url('/corndog-tile.png'), url('/corndog-tile-2.png');
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    -webkit-animation: snow 1000s linear infinite;
+    -moz-animation: snow 1000s linear infinite;
+    -ms-animation: snow 1000s linear infinite;
+    animation: snow 1000s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}
+}
