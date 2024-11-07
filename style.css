@@ -35,6 +35,10 @@ div{
     opacity: 0.9;
 }
 
+p{
+    font-size: 30px;
+}
+
 .gap{
     padding: 1%;
 }
@@ -48,7 +52,10 @@ div{
 }
 
 #title{
+    white-space: nowrap;
     font-size: xxx-large;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #mainText{
@@ -72,7 +79,7 @@ div{
     margin-right: auto;
     background: #eaeaea;
     width: 60%;
-    height: 1000px;
+    height: 65%;
 }
 
 #blog h1{
@@ -85,6 +92,31 @@ div{
 
 #list{
     list-style-type: var(--inv);
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#jslogo, #pylogo {
+    width: 10%;
+}
+
+
+#link1{
+    font-size: 30px;
+}
+
+#link2{
+    font-size: 30px;
+}
+
+#link3{
+    font-size: 30px;
 }
 
 #snow{
